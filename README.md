@@ -4,11 +4,11 @@ This is a full-stack hospital management system developed using the MERN stack (
 
 ## Features
 
-- **Patient and Doctor Management**: Manage patient and doctor information efficiently.
+- **Patient and Doctor Management**: Efficiently manage patient and doctor information.
 - **Appointment Scheduling**: Patients can schedule appointments with doctors.
 - **Automated Email Confirmations**: Automated emails are sent to patients upon appointment booking to improve communication.
 - **User Authentication**: Secure user login and registration.
-- **Responsive Design**: The system is designed to be responsive and user-friendly.
+- **Responsive Design**: Designed to be responsive and user-friendly.
 
 ## Technologies Used
 
@@ -19,16 +19,16 @@ This is a full-stack hospital management system developed using the MERN stack (
 
 ## Installation
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-- **Node.js**: Make sure you have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
-- **MongoDB**: Ensure you have MongoDB installed and running. You can download it from [MongoDB official website](https://www.mongodb.com/).
+- **Node.js**: Download from [Node.js official website](https://nodejs.org/).
+- **MongoDB**: Download from [MongoDB official website](https://www.mongodb.com/).
 
 ### Setup
 
-1. **Clone the repo**
+1. **Clone the repository**
    ```sh
    git clone https://github.com/YourUsername/hospital-management-system.git
    cd hospital-management-system
@@ -38,21 +38,21 @@ To get a local copy up and running follow these simple steps.
    ```sh
    cd backend
    npm install
-   cd  .. 
+   cd ..
    cd frontend
    npm install
-   cd  ..
+   cd ..
    cd dashboard
    npm install
    ```
 
-3. **Edit .env file present in backend\config\config.env**
-   Edit the `.env` file present in backend\config\config.env and add your MongoDB URI and other necessary environment variables.
+3. **Configure Environment Variables**
+   Edit the `.env` file located at `backend/config/config.env` and add your MongoDB URI and other necessary environment variables.
    ```sh
-   MONGO_URI= Paste your mongo db url here
-   CLOUDINARY_CLOUD_NAME= your CLOUDINARY CLOUD NAME
-   CLOUDINARY_API_SECRET= API Secret Key
-   CLOUDINARY_API_KEY= API KEY
+   MONGO_URI=your_mongo_db_url
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   CLOUDINARY_API_KEY=your_cloudinary_api_key
    ```
 
 4. **Run the application**
@@ -63,7 +63,7 @@ To get a local copy up and running follow these simple steps.
    # Run frontend
    npm run frontend
 
-   #Run dashboard
+   # Run dashboard
    npm run dashboard
    ```
 
@@ -74,13 +74,16 @@ To get a local copy up and running follow these simple steps.
 3. **Schedule Appointments**: Patients can book appointments with doctors.
 4. **Receive Email Confirmations**: Automated email confirmations are sent to patients upon booking.
 
+## Demonstration
+
+Watch the video demonstration of the project [here](https://drive.google.com/file/d/1pnGDt-1ueaYScVB4GW2p9XwuHx-LRlhm/view).
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+1. **Fork the Project**
+2. **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
