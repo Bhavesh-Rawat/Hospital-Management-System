@@ -42,12 +42,13 @@ To get a local copy up and running follow these simple steps.
    cd ..
    ```
 
-3. **Add a .env file**
+3. **Edit .env file present in backend\config\config.env**
    Create a `.env` file in the root directory and add your MongoDB URI and other necessary environment variables.
    ```sh
-   MONGO_URI=your_mongodb_uri
-   EMAIL_USER=your_email_address
-   EMAIL_PASS=your_email_password
+MONGO_URI= Paste your mongo db url here
+CLOUDINARY_CLOUD_NAME= your CLOUDINARY CLOUD NAME
+CLOUDINARY_API_SECRET= API Secret Key
+CLOUDINARY_API_KEY= API KEY
    ```
 
 4. **Run the application**
