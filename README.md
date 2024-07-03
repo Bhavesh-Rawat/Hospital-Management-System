@@ -1,7 +1,3 @@
-Sure! Below is a sample README file for your hospital management system project utilizing the MERN stack.
-
----
-
 # Hospital Management System
 
 This is a full-stack hospital management system developed using the MERN stack (MongoDB, Express.js, React, Node.js). The system includes features for managing patient and doctor appointment scheduling and automated email confirmations.
