@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run dev",
+    "start-dashboard": "cd dashboard && npm run dev",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\" \"npm run start-dashboard\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react-toastify": "^10.0.5"
+  }
+}
