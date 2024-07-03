@@ -36,28 +36,35 @@ To get a local copy up and running follow these simple steps.
 
 2. **Install NPM packages**
    ```sh
+   cd backend
    npm install
-   cd client
+   cd  .. 
+   cd frontend
    npm install
-   cd ..
+   cd  ..
+   cd dashboard
+   npm install
    ```
 
 3. **Edit .env file present in backend\config\config.env**
-   Create a `.env` file in the root directory and add your MongoDB URI and other necessary environment variables.
+   Edit the `.env` file present in backend\config\config.env and add your MongoDB URI and other necessary environment variables.
    ```sh
-MONGO_URI= Paste your mongo db url here
-CLOUDINARY_CLOUD_NAME= your CLOUDINARY CLOUD NAME
-CLOUDINARY_API_SECRET= API Secret Key
-CLOUDINARY_API_KEY= API KEY
+   MONGO_URI= Paste your mongo db url here
+   CLOUDINARY_CLOUD_NAME= your CLOUDINARY CLOUD NAME
+   CLOUDINARY_API_SECRET= API Secret Key
+   CLOUDINARY_API_KEY= API KEY
    ```
 
 4. **Run the application**
    ```sh
-   # Run server
-   npm run server
+   # Run backend
+   npm run backend
    
-   # Run client
-   npm run client
+   # Run frontend
+   npm run frontend
+
+   #Run dashboard
+   npm run dashboard
    ```
 
 ## Usage
